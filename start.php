@@ -74,7 +74,7 @@ try {
         sleep(1);
     }
     // 写入到 MD 文件
-    $filename = 'readme.md';
+    $filename = 'README.md';
     $file = fopen($filename, 'w');
     fwrite($file, $table);
     fclose($file);
