@@ -1,0 +1,8 @@
+{
+    "require": {
+        "hyperf/websocket-client": "^3.0",
+        "friendsofhyperf/helpers": "^3.0",
+        "swoole/ide-helper": "5.0.3",
+        "easyswoole/spl": "^2.1"
+    }
+}
