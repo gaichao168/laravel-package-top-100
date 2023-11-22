@@ -58,7 +58,7 @@ try {
                 $top,
                 $hit['name'],
                 $hit['repository'],
-                $hit['description'],
+                str_replace('|', '\|', $hit['description']), // 防止描述中有 | 导致表格格式错误
                 $hit['meta']['downloads'],
                 $hit['meta']['favers'],
                 $hit['repository'],
